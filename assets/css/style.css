@@ -22,7 +22,10 @@ body {
   font-size: 36px;
 }
 
-
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
 /*------------------Carousel----------------*/
 
 .carousel-inner img {
