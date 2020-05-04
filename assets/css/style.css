@@ -13,7 +13,7 @@ body {
 }
 
 .navbar a {
-  float: left;
+  float: float;
   display: block;
   color: #f01818;
   text-align: center;
@@ -26,6 +26,8 @@ body {
   background: #ddd;
   color: black;
 }
+
+
 /*------------------Carousel----------------*/
 
 .carousel-inner img {
@@ -63,7 +65,7 @@ body {
 }
 
 .social-links li a i:hover {
-  background: #c0c0c0;
+  background: #db0808;
 }
 
 .social {
