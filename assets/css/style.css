@@ -93,25 +93,26 @@ img {
 
  /*-----------------Band Memebers------------*/
 
- #design-cast {
-    position: relative;
-    overflow: hidden;
-}
 
-.member {
-    float: left;
-    width: 25%;
-    margin: 1% 1% 45px 1%;
-}
 
-.name {
+
+.band1 {
+position: absolute;
+    bottom: 0px;
+}
+.band2 {
+    position: absolute;
+    bottom: 0px;
+
+}
+.band3 {
     position: absolute;
     bottom: 0px;
 }
-
-.member img {
-    width: 100%;
-    display: block;
+.band4 {
+    position: absolute;
+    bottom: 0px;
+    
 }
 
 /*------------------Videos------------------*/
@@ -131,14 +132,28 @@ img {
 }
 
 .button {
-    text-align: center;
-    position: relative;
-    width: 100%;
-    color: #e61111;
-    margin: 0, auto;
-    display: block;
-    
+ 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 0px auto;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 25%;
 }
+
+
+.button :hover {
+  background-color: rgb(233, 20, 20);
+  color: white;
+}
+
+
+
 
 
 
