@@ -1,32 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Modak&family=Roboto&display=swap");
 
 body {
-    background-color: rgba(7, 84, 114, 0.151)}
-* {box-sizing: border-box}   
-
+  background-color: rgba(7, 84, 114, 0.151);
+}
+* {
+  box-sizing: border-box;
+}
 
 h1 {
-    color: #110101;
-    text-align: center;
-    font-family: 'Roboto';
-    margin-top: 30px;
+  color: #110101;
+  text-align: center;
+  font-family: "Roboto";
+  margin-top: 30px;
 }
 
-p {
-    color: #000000;
-    text-align: center;
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-top: 30px;
 
-}
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
-
-
-
 
 .img {
   /* The image used */
@@ -38,7 +30,7 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+
   /* Needed to position the navbar */
   position: relative;
 }
@@ -52,8 +44,8 @@ img {
 
 /* The navbar */
 .topnav {
-  overflow: visible;
-  background-color: rgb(22, 20, 20);
+  overflow: hidden;
+  background-color: rgb(12, 11, 11);
 }
 
 /* Navbar links */
@@ -71,68 +63,40 @@ img {
   color: black;
 }
 
-
-
-
- /*------------------Band Images------------------*/
-.column {
-     float: left;
-     width: 25%;
-     padding: 5px;
- }
- 
- .row {
-     display: inline-block;
-     margin-left: auto;
-     margin-right: auto;
-     height: 30px;
- }
-
-
-
-
- /*-----------------Band Memebers------------*/
-
-
-
-
-.band1 {
-position: absolute;
-    bottom: 0px;
-}
-.band2 {
-    position: absolute;
-    bottom: 0px;
-
-}
-.band3 {
-    position: absolute;
-    bottom: 0px;
-}
-.band4 {
-    position: absolute;
-    bottom: 0px;
+/*------------------Band Images------------------*/
+.col {
     
+    display: inline-block;
+    text-align: justify;
+    width: 100%;
+    }
+
+.col {
+    display: inline-block;
+    margin: 0 auto;
 }
+
+/*-----------------Band Members------------*/
+
+
 
 /*------------------Videos------------------*/
 
-.iframe-container{
+.iframe-container {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; 
+  padding-bottom: 56.25%;
   height: 0;
 }
-.iframe-container iframe{
+.iframe-container iframe {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
 
 .button {
- 
   border: none;
   color: white;
   padding: 16px 32px;
@@ -146,47 +110,39 @@ position: absolute;
   width: 25%;
 }
 
-
 .button :hover {
   background-color: rgb(233, 20, 20);
   color: white;
 }
 
-
-
-
-
-
-
 /*------------------Contact------------------*/
-
-
-
 
 /*------------------Footer------------------*/
 
-.list-inline-item {
-  width: 100px;
-  height: 100px;
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   padding: 30px 0;
   border-radius: 100%;
   font-size: 32px;
   line-height: 4px;
-  text-align: center;
-  color: rgba(0, 0, 0, 0.8);
-  background: #f00;
+  color: rgba(5, 0, 0, 0.8);
+  background: rgb(241, 235, 235);
   transition: 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
 }
-
-.list-inline-item {
-  background: #db0808;
+ 
+.icon {
+  background: #f0eaea;
 }
-
-.list-inline-item {
+ 
+.icon {
   padding-bottom: 40px;
   padding-top: 45px;
   margin-top: 50px;
+  
 }
