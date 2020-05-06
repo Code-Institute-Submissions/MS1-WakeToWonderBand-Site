@@ -23,7 +23,8 @@
     <title>Wake To Wonder</title>
   </head>
 
-  <body>
+  <body id="mainPage" data-spy="scroll" data-target=".navbar data-offset=30">
+  
     <div class="row no-gutters">
       <nav
         class="col-12 navbar navbar-dark bg-dark navbar-expand-lg fixed-top px-0"
@@ -49,8 +50,8 @@
         <li><a href="#contact">Contact</a></li>
       
       </nav>
+    
     </div>
-
     <!-----------------Background image------------>
 <img src="assets/images/bandphoto.jpg" alt="bandphoto" width="100%" height="1000">
 
@@ -111,8 +112,8 @@
 
     <a href="#band"><h1>Band</h1></a>
     <div class="container">
-      <div class="row">
-        <div class="col-3-sm">Adam</div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+       
         <img
           src="assets/images/Adam Boyd.jpg"
           alt="adam profile pic"
@@ -120,7 +121,7 @@
           height="360px"
         />
 
-        <div class="col-3-sm">Grant</div>
+        
         <img
           src="assets/images/Grant Profile Pic.jpg"
           alt="grant profile pic"
@@ -128,24 +129,32 @@
           height="360px"
         />
 
-        <div class="col-3-sm">Werner</div>
+        
         <img
           src="assets/images/Ainslie.jpg"
           alt="ainslie profile pic"
           style="width: 25%;"
           height="360px"
         />
-
-        <div class="col-3-sm">Graeme</div>
+        
+       
         <img
           src="assets/images/Graeme.jpg"
           alt="graeme profile pic"
           tyle="width:25%"
           height="360px"
         />
-      </div>
+      
     </div>
-
+    <div class="container">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+    <div class="col">Adam Boyd - Vocalist/Guitarist</div>
+    <div class="col">Grant Coetzee - Lead Guitarist</div>
+    <div class="col">Werner Ainslie - Bassist</div>
+    <div class="col">Graeme Swale - Drummer</div>
+  </div>
+</div>
+    
     <a href="#videos"><h1>Videos</h1></a>
     <div class="container">
       <div class="row"></div>
@@ -160,14 +169,16 @@
         allowfullscreen
       ></iframe>
     </div>
+    </div>
+    <div class="container">
+    <div class="row">
+          
     <div class="button">
       <a href="https://www.youtube.com/user/WaketoWonder" target="_blank">
         <button>Click this link to see more of our videos!!!</button></a
       >
     </div>
-    <div class="container">
-      <div class="row"></div>
-    </div>
+      </div></div>
 
     <a href="#contact"><h1>Contact</h1></a>
     <h3>To enquire about booking us please submit the form below:</h3>
@@ -180,7 +191,7 @@
     />
 
     <footer class="container">
-      <div class="row"></div>
+      <div class="row">
 
       <ul>
         <li class="icon">
@@ -209,8 +220,9 @@
           </a>
         </li>
       </ul>
-
+      </div>
       <p>2020 Wake to Wonder All Rights Reserved</p>
     </footer>
+ </div>
   </body>
 </html>
