@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Modak&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
 body {
   background-color: rgba(83, 83, 83, 0.295);
@@ -31,6 +31,7 @@ body {
 a {
   font-size: 40px;
   color: rgb(252, 0, 0);
+  font-family: "Anton"
 }
 
 .navbar-brand {
@@ -42,7 +43,7 @@ a {
 h1 {
   text-align: center;
   color: rgb(141, 6, 6);
-  font-family: "Modak", Arial, Helvetica, sans-serif;
+  font-family: "Anton", Arial, Helvetica, sans-serif;
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 72px;
@@ -51,7 +52,7 @@ h1 {
 h3 {
   text-align: center;
   color: rgb(14, 13, 13);
-  font-family: "Modak", Arial, Helvetica, sans-serif;
+  font-family: "Anton", Arial, Helvetica, sans-serif;
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 36px;
@@ -60,41 +61,47 @@ h3 {
 p {
   text-align: center;
   color: #000;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Anton", Helvetica, sans-serif;
   font-size: 26px;
 }
 
 .col {
-  color: #000;
-  font-family: "Modak", Arial, Helvetica, sans-serif;
+  color: rgb(248, 21, 21);
+  font-family: "Anton", Arial, Helvetica, sans-serif;
   font-size: 26px;
   border: transparent;
 }
 
-
 .btn-outline-danger {
-  text-align: center;
-  color: rgb(141, 6, 6);
-  font-family: "Modak", Arial, Helvetica, sans-serif;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 48px;
-  position: relative;
-  width: 100%;
+  color: #dc3545;
+  background-color: transparent;
+  background-image: none;
+  border-color: #dc3545;
+  
+}
+
+.btn-outline-danger:hover {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
 }
 
 
 
+
 .container {
-  background-color: #f0e5f3;
+  background-color: #171418;
   height: 100%;
   margin-top: 0;
   box-shadow: 10px 10px 15px black;
 }
 
+/*--------------contact image--------------*/
 
 
-/*--------------footer*/
+
+
+/*--------------footer---------------------*/
 
 .icon {
   width: 100px;
