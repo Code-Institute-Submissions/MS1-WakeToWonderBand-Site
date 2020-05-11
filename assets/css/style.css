@@ -6,7 +6,7 @@ body {
 
 /*----------Navigation----------*/
 
-.navbar {
+.navbar-item {
   opacity: 1;
   position: absolute;
   padding: 0;
@@ -20,13 +20,22 @@ body {
   margin: 0;
 }
 
-.navbar-toggler-icon {
+.navbar-item {
   color: rgb(12, 10, 10);
 }
+
+ .navbar-toggler-icon {
+    color: #f00;
+  }
 
 a {
   font-size: 40px;
   color: rgb(252, 0, 0);
+}
+
+.navbar-brand {
+    font-size: 40px;
+  color: rgb(226, 19, 19);
 }
 /*------------text------------*/
 
@@ -61,13 +70,15 @@ p {
   font-size: 26px;
   border: transparent;
 }
-.button {
+
+
+.btn-outline-danger {
   text-align: center;
   color: rgb(141, 6, 6);
   font-family: "Modak", Arial, Helvetica, sans-serif;
   margin-top: 30px;
   margin-bottom: 30px;
-  font-size: 72px;
+  font-size: 48px;
   position: relative;
   width: 100%;
 }
