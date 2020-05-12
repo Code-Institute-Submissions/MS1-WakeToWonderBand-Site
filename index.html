@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Wake To Wonder</title>
   </head>
-  <body>
+  <body id="mainPage" data-spy="scroll" data-target=".navbar data-offset=30">
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#home"><strong>Wake to Wonder</strong></a>
       <button
@@ -70,8 +70,9 @@
 
     <!-----------------About the band------------>
 
-    <a href="#about"><h1>About</h1></a>
+    <div id="about"></div>
 
+    <h1>About</h1>
     <div class="container-fluid">
       <p>
         <strong>Biography:</strong>
@@ -101,7 +102,8 @@
         Tattoos
       </p>
     </div>
-    <a href="#band"><h1>Band</h1></a>
+    <div id="band"></div>
+    <h1>Band</h1>
     <div class="container">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
         <img
@@ -144,7 +146,7 @@
 
     <!------------you tube------------->
 
-    <a href="#videos"><h1>Videos</h1></a>
+    <div id="videos"></div><h1>Videos</h1>
     <div class="container">
       <div class="row-12">
         <div class="iframe-container">
@@ -176,88 +178,83 @@
     </div>
     <!------------------W3School------>
 
-    <a href="#contact"><h1>Contact</h1></a>
+    <div id="contact"></div><h1>Contact</h1>
     <h3>To enquire about booking us please submit the form below:</h3>
     <div class="-container-fluid">
       <div class="container">
+        <div class="col-25">
+          <label for="fname">First Name:</label>
+        </div>
+        <div class="col-75">
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+        </div>
+
+        <div class="col-25">
+          <label for="lname">Last Name:</label>
+        </div>
+        <div class="col-75">
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+        </div>
+
+        <div class="col-25">
+          <label for="emailaddress">Email Address:</label>
+        </div>
+        <div class="col-75">
+          <input
+            type="text"
+            id="emailaddress"
+            name="emailaddress"
+            placeholder="Email address"
+          />
+        </div>
+
+        <div class="col-25">
+          <label for="country">Country:</label>
+        </div>
+        <div class="col-75">
+          <select id="country" name="country">
+            <option value="argentina">Argentina</option>
+            <option value="australia">Australia</option>
+            <option value="belgium">Belgium</option>
+            <option value="canada">Canada</option>
+            <option value="finland">Finland</option>
+            <option value="germany">Germany</option>
+            <option value="newzealand">New Zealand</option>
+            <option value="norway">Norway</option>
+            <option value="poland">Poland</option>
+            <option value="russia">Russia</option>
+            <option value="singapore">Singapore</option>
+            <option value="southafrica">South Africa</option>
+            <option value="sweden">Sweden</option>
+            <option value="unitedkingdom">United Kingdom</option>
+            <option value="usa">USA</option>
+          </select>
+        </div>
+
+        <div class="col-25">
+          <label for="message">Message:</label>
+        </div>
+        <div class="col-75">
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Let us know booking dates, times, contact details etc"
+            style="height: 300px;"
+          ></textarea>
+        </div>
+
         <div class="bg-img">
           <form action="assets/images/contactpage.jpg">
-            <div class="row">
-              <div class="col-25">
-                <label for="fname">First Name:</label>
-              </div>
-              <div class="col-75">
-                <input
-                  type="text"
-                  id="fname"
-                  name="firstname"
-                  placeholder="Your name.."
-                />
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label for="lname">Last Name:</label>
-              </div>
-              <div class="col-75">
-                <input
-                  type="text"
-                  id="lname"
-                  name="lastname"
-                  placeholder="Your last name.."
-                />
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label for="email address">Email Address:</label>
-              </div>
-              <div class="col-75">
-                <input
-                  type="text"
-                  id="emailaddress"
-                  name="emailaddress"
-                  placeholder="Email address"
-                />
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label for="country">Country:</label>
-              </div>
-              <div class="col-75">
-                <select id="country" name="country">
-                  <option value="australia">Australia</option>
-                  <option value="australia">Australia</option>
-                  <option value="australia">Australia</option>
-                  <option value="australia">Australia</option>
-                  <option value="australia">Australia</option>
-                  <option value="australia">Australia</option>
-                  <option value="australia">Australia</option>
-                  <option value="australia">Australia</option>
-                  <option value="australia">Australia</option>
-                  <option value="australia">Australia</option>
-                  <option value="australia">Australia</option>
-                  <option value="australia">Australia</option>
-                  <option value="australia">Australia</option>
-                  <option value="canada">Canada</option>
-                  <option value="usa">USA</option>
-                </select>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label for="subject">Message:</label>
-              </div>
-              <div class="col-75">
-                <textarea
-                  id="message"
-                  name="message"
-                  placeholder="Let us know booking dates, times, contact details etc"
-                  style="height: 300px;"
-                ></textarea>
-              </div>
-            </div>
             <button
               type="button"
               class="btn btn-outline-danger"
@@ -270,28 +267,30 @@
       </div>
     </div>
 
-    <div class="row-12">
-      <a target="_blank" href="https://www.facebook.com/waketowonder/">
-        <i class="fa fa-facebook-official" aria-hidden="true"></i>
-        <span class="sr-only">Facebook</span>
-      </a>
+    <div class="container-fluid">
+      <div class="footer">
+        <a target="_blank" href="https://www.facebook.com/waketowonder/">
+          <i class="fa fa-facebook-official" aria-hidden="true"></i>
+          <span class="sr-only">Facebook</span>
+        </a>
 
-      <a target="_blank" href="https://twitter.com/explore">
-        <i class="fa fa-twitter" aria-hidden="true"></i>
-        <span class="sr-only">Twitter</span>
-      </a>
+        <a target="_blank" href="https://twitter.com/explore">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <span class="sr-only">Twitter</span>
+        </a>
 
-      <a target="_blank" href="https://www.instagram.com/">
-        <i class="fa fa-instagram" aria-hidden="true"></i>
-        <span class="sr-only">Instagram</span>
-      </a>
+        <a target="_blank" href="https://www.instagram.com/">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <span class="sr-only">Instagram</span>
+        </a>
 
-      <a target="_blank" href="https://www.youtube.com/user/WaketoWonder">
-        <i class="fa fa-youtube" aria-hidden="true"></i>
-        <span class="sr-only">YouTube</span>
-      </a>
+        <a target="_blank" href="https://www.youtube.com/user/WaketoWonder">
+          <i class="fa fa-youtube" aria-hidden="true"></i>
+          <span class="sr-only">YouTube</span>
+        </a>
+      </div>
+
+      <p>2020 Wake to Wonder All Rights Reserved</p>
     </div>
-
-    <p>2020 Wake to Wonder All Rights Reserved</p>
   </body>
 </html>
