@@ -86,9 +86,6 @@ p {
   border-color: #dc3545;
 }
 
-
-
-
 .container {
   background-color: #171418;
   height: 100%;
@@ -96,9 +93,44 @@ p {
   box-shadow: 10px 10px 15px black;
 }
 
-/*--------------contact image--------------*/
+/*--------------contact form--------------*/
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
 
+.col-25 {
+    color: #dc3545;
+     float: right;
+  width: 25%;
+  margin-top: 6px;
+  font-size: 18px;
+  font-family: "Anton", Arial, Helvetica, sans-serif;
+}
+
+.col-75 {
+     float: right;
+  width: 50%;
+  margin-top: 6px;
+  font-family: "Anton", Arial, Helvetica, sans-serif;
+
+}
+
+.row:after {
+  content: "row";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 
 
 /*--------------footer---------------------*/
