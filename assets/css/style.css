@@ -6,113 +6,117 @@ body {
 
 /*----------Navigation----------*/
 
-.nav-link {
+.nav-item {
+  font-size: 25px;
   opacity: 0.8;
-  font-family: 20px;
-  padding: 2px;
+  font-family: "Anton";
+  padding: 0px;
   height: 25px;
   left: 0px;
   margin: 0;
   background-color: transparent;
-}
-
-.nav-item {
-  color: rgb(12, 10, 10);
-  background-color: transparent;
-}
-
-a {
-  font-size: 40px;
-  font-family: "Anton";
+  margin-bottom: 7px;
+  margin-left: 20px;
+  align-content: auto;
 }
 
 .navbar-brand {
-  font-size: 40px;
+  font-size: 30px;
+
+  font-family: "Anton";
+  padding: 2px;
+  height: 30px;
+  left: 0px;
+  margin: 0;
+  background-color: transparent;
+  box-sizing: border-box;
+  margin-bottom: 5px;
 }
 
 /*------------text------------*/
 
-
-
 h2 {
-    text-align: center;
-  color: rgb(14, 13, 13);
-  font-family: "Anton", Arial, Helvetica, sans-serif;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 36px;
-}
-
-
-h3 {
   text-align: center;
   color: rgb(14, 13, 13);
   font-family: "Anton", Arial, Helvetica, sans-serif;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 36px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  font-size: 25px;
 }
+
+
 
 h5 {
   text-align: center;
+  
 }
 
 p {
   text-align: center;
   color: #0a0101;
-  font-size: 26px;
+  font-family: "Anton";
 }
+
+
 
 /*----------band font/images-----------*/
 
 .band-name {
   color: rgb(248, 21, 21);
   font-family: "Anton", Arial, Helvetica, sans-serif;
-  font-size: 32px;
+  font-size: 20px;
+  
 }
 .band-image {
   object-fit: cover;
-  width: 100px;
+  width: 250px;
   height: 360px;
+  
+  
 }
 
-/*----------button-------------*/
 
-.btn-outline-danger {
-  color: #dc3545;
-  background-color: transparent;
-  background-image: none;
-  border-color: #dc3545;
-}
 
-.btn-outline-danger:hover {
-  color: #fff;
-  background-color: #dc3545;
-  border-color: #dc3545;
-}
+
 
 /*---------Containter-------*/
 .row {
-  background-color: black;
+  background-color: rgba(89, 207, 243, 0);
+margin-top: 15px;
 }
 
 .container {
-  background-color: #0505050c;
+  background-color: #1be0fa0c;
   height: 100%;
-  margin-top: 15px;
+  margin-top: 0px;
   margin-bottom: 0px;
   box-shadow: 10px 10px 15px black;
 }
 
+
+
+link:link, link:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+link:hover, link:active {
+  background-color: red;
+}
 /*--------------contact form--------------*/
 
 .form-center {
-    text-align: center;
-    width: 100%;
+  text-align: center;
+  
 }
 
 .container-form {
   text-align: center;
+  
 }
 
 input[type="text"],
@@ -125,32 +129,16 @@ textarea {
   resize: vertical;
 }
 
-.col-25 {
-  color: #dc3545;
-  float: left;
-  width: 25%;
-  margin-top: 15px;
-  margin-left: 15px;
-  font-size: 18px;
-  font-family: "Anton", Arial, Helvetica, sans-serif;
-}
-
 .col-75 {
-  float: right;
-  width: 70%;
+  float: none;
+  width: 100%;
   margin-top: 6px;
-  margin-right: 15px;
-  font-family: "Anton", Arial, Helvetica, sans-serif;
-}
 
-.row:after {
-  content: "row";
-  display: table;
-  clear: both;
+  font-family: "Anton", Arial, Helvetica, sans-serif;
 }
 
 @media screen and (max-width: 600px) {
-  .col-25,
+
   .col-75,
   input[type="submit"] {
     width: 100%;
@@ -160,9 +148,9 @@ textarea {
 /*--------------footer---------------------*/
 
 .footer {
+  color: red;
   position: relative;
-  left: 0;
-  bottom: 0;
+  font-size: 36px;
   width: 100%;
   text-align: center;
   margin-top: 20px;
