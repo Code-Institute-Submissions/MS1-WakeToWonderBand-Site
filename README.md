@@ -13,6 +13,14 @@ In Short:
 
 This website has been laid out in a scrollable format and the user can easily navigate through the page.  This is a fun website and is aimed at users who are into rock music and are interested in booking a rock band.  It is aimed at a large audience and whilst visiting this site they will be introduced to a broader perspective of the bands music.  As a user to this site i would expect to see, Images/Videos of the Band, contact/enquiry to book and to connect with the Band.
 
+## User Stories
+
+-  As a fan and friend of W2W I wanted to create a site where I could discover more of their music
+-  As an avid photographer I wanted to include images to capture the users into seeing action shots
+-  As a fan of rock music I wanted the user to be able to connect through social Links
+-  If I was a new visitor to this site I would like to find out more about this band and how I could enquire about booking them
+-  I wanted the user to be able to browse this site on any device which I am pretty sure I have achieved
+
 # **Features**
 
 ## Features left to implement
@@ -27,6 +35,7 @@ This website has been laid out in a scrollable format and the user can easily na
 
 
 # **Skeleton**
+[...assets/images/wireframe/W2WWire.jpg]
 
 
 # **Surface**
@@ -39,7 +48,9 @@ This website has been laid out in a scrollable format and the user can easily na
 *  Balsamiq Wireframes - Balsamiq was used to create wireframes to get an idea of layout
 *  https://getbootstrap.com/ - I used bootstrap for responsivness and created an image carousel, I also used the CDN for this project and Bootstrap Grid
 *  W3Schools - I found W3Schools extremelly helpful with this project and I used this responsive form https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive i altered it a bit to suit my website
-*  https://fontawesome.com - 
+*  https://fontawesome.com 
+*  https://fonts.google.com/ - I used Google fonts for my fonts and i used "Pangolin" throughout the entire page as i think it works well with the site
+
 # **Testing**
 
 
