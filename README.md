@@ -23,19 +23,33 @@ This website has been laid out in a scrollable format and the user can easily na
 
 # **Features**
 
+My website has 5 different sections to navigate through on a sticky Nav bar which collapses when view on a tablet or mobile all images are responsive.  I have gone for a single page scrollable website which i think works better for a band all sections are linked and are functional
+
+-  Home - This section has 3 large pics of the Band on a carousel which moves automatically or it can be selected by the user to move to the next page.
+-  About - This section gives a brief overview of the Band and some of their tours etc.  I wanted to keep it brief in order not to loose the readers interested
+-  Band - This section has 4 pics in a row of each member with their names and what instrument they play, I used bootstrap grid for this
+-  Videos - This section has a music video that the Band released and is playable directly from the site, there is a link below the video to take the user to a you tube playlist of the band, i set this so it would open in a seperate page so the user can still continue to browse this site
+-  Contact - This section has a form that if the user is interested can enter their details to enquire about booking the band, the submit button takes the user to an image
+-  Footer - Very simple footer with social links of the band, Facebook, Twitter, Instagram and you tube  
+
 ## Features left to implement
 
 # **Strategy**
 
+I set out to make this an enjoyable site to visit as well as an easy site to navigate.  I wanted to keep it simple but still enough on the page to navigate through
 
 # **Scope**
 
+For every new or old music lover, I wanted to create an easy friendly navigatable site that has ease of access and shows the users what the band is all about
 
 # **Structure**
 
 
 # **Skeleton**
-[...assets/images/wireframe/W2WWire.jpg]
+
+I used Balsamiq to create my wireframes - first time I have used Balsamiq and i found it to be a very good tool
+
+![...assets/images/wireframe/W2WWire.jpg]
 
 
 # **Surface**
