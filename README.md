@@ -44,6 +44,7 @@ For every new or old music lover, I wanted to create an easy friendly navigatabl
 
 # **Structure**
 
+This website has been laid out in a way as to get a feel for who the band are by visual and then you get to know about the band and then listen to their music.  The nav bar is always available for quick and easy navigation
 
 # **Skeleton**
 
@@ -75,11 +76,11 @@ I used Balsamiq to create my wireframes - first time I have used Balsamiq and i 
 
 ## Content
 
--
+-  I obtained code from Bootstrap, W3Schools, and i found both these websites to be very helpful 
 
 ## Media
 
--
+-  All media is from you tube and all images were obtained from Facebook with the Bands permission
 
 ## Acknowledgements
 
