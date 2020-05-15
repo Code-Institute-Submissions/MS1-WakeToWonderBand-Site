@@ -22,27 +22,28 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Wake To Wonder</title>
   </head>
+
+  <!-----------------Navigation------------>
+
   <body id="mainPage" data-spy="scroll" data-target=".navbar data-offset=30">
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#home"><strong>Wake to Wonder</strong></a>
+      <a class="navbar-brand" href="#"><strong>Wake to Wonder</strong></a>
       <button
-        class="navbar-toggler"
+        class="navbar-toggler ml-auto"
         type="button"
         data-toggle="collapse"
         data-target="#navbarSupportedContent"
-        aria-controls="nav"
+        aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
+              >Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
@@ -59,7 +60,8 @@
         </ul>
       </div>
     </nav>
-    <!-----------------Background image------------>
+
+    <!-----------------Main Image image taken from FB with bands permission---------------->
 
     <img
       src="assets/images/bandpic2.jpg"
@@ -68,10 +70,9 @@
       height="800"
     />
 
-    <!-----------------About the band------------>
+    <!-----------------About the band, bio taken from bands fb page------------>
 
     <div id="about"></div>
-
     <h2>About</h2>
     <div class="container-fluid">
       <h5><strong>Biography:</strong></h5>
@@ -102,9 +103,10 @@
       </p>
     </div>
 
+    <!------------Band Section images taken from fb------------->
+
     <div id="band"></div>
     <h2>Band</h2>
-
     <div class="row">
       <div class="col-sm-12 col-md-3 col-lg-3">
         <img
@@ -140,7 +142,7 @@
       </div>
     </div>
 
-    <!------------you tube------------->
+    <!------------Video Section video taken from you tube------------->
 
     <div id="videos"></div>
     <h2>Videos</h2>
@@ -157,16 +159,15 @@
           ></iframe>
         </div>
       </div>
-    
+      <form target="_blank" action="https://www.youtube.com/user/WaketoWonder">
+        <button type="submit">More Vids!</button>
+      </form>
+    </div>
 
-     <form target="_blank" action="https://www.youtube.com/user/WaketoWonder">
-         <button type="submit" >More Vids!</button></form>
-</div>
-    <!------------------W3School------>
+    <!------------------Form section W3schools helped me with this form, changed it slightly-------------->
 
     <div id="contact"></div>
     <h2>Contact</h2>
-
     <h5>To enquire about booking us please submit the form below:</h5>
     <div class="container">
       <div class="container-form">
@@ -176,28 +177,25 @@
               type="text"
               id="fname"
               name="firstname"
-              placeholder="Your name.."
+              placeholder="Your name..."
             />
           </div>
-
           <div class="col-75">
             <input
               type="text"
               id="lname"
               name="lastname"
-              placeholder="Your last name.."
+              placeholder="Your last name..."
             />
           </div>
-
           <div class="col-75">
             <input
               type="text"
               id="emailaddress"
               name="emailaddress"
-              placeholder="Email address"
+              placeholder="Email address..."
             />
           </div>
-
           <div class="col-75">
             <select id="country" name="country">
               <option value="argentina">Argentina</option>
@@ -217,46 +215,56 @@
               <option value="usa">USA</option>
             </select>
           </div>
-
           <div class="col-75">
             <textarea
               id="message"
               name="message"
-              placeholder="Let us know booking dates, times, contact details etc"
+              placeholder="Let us know booking dates, times, contact details..."
               style="height: 300px;"
             ></textarea>
           </div>
-
           <form target="_blank" action="assets/images/contactpage.jpg">
-         <button type="submit">Submit</button></form>
+            <button type="submit">Submit</button>
+          </form>
         </div>
       </div>
     </div>
 
-    <div class="footer">
-      <div class="social-link">
-        <a target="_blank" href="https://www.facebook.com/waketowonder/">
-          <i class="fa fa-facebook-official" aria-hidden="true"></i>
-          <span class="sr-only">Facebook</span>
-        </a>
+    <!------------------Social Media -------------->
 
-        <a target="_blank" href="https://twitter.com/explore">
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-          <span class="sr-only">Twitter</span>
-        </a>
-
-        <a target="_blank" href="https://www.instagram.com/">
-          <i class="fa fa-instagram" aria-hidden="true"></i>
-          <span class="sr-only">Instagram</span>
-        </a>
-
-        <a target="_blank" href="https://www.youtube.com/user/WaketoWonder">
-          <i class="fa fa-youtube" aria-hidden="true"></i>
-          <span class="sr-only">YouTube</span>
-        </a>
-      </div>
+    <div class="continer-fluid">
+      <a target="_blank" href="https://www.facebook.com/waketowonder/">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <span class="sr-only">Facebook</span>
+      </a>
+      <a target="_blank" href="https://twitter.com/explore">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <span class="sr-only">Twitter</span>
+      </a>
+      <a target="_blank" href="https://www.instagram.com/">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <span class="sr-only">Instagram</span>
+      </a>
+      <a target="_blank" href="https://www.youtube.com/user/WaketoWonder">
+        <i class="fa fa-youtube" aria-hidden="true"></i>
+        <span class="sr-only">YouTube</span>
+      </a>
     </div>
-
     <p>2020 Wake to Wonder All Rights Reserved</p>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
