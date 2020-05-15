@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Pangolin&display=swap");
 
 body {
-  background-color: rgba(83, 83, 83, 0.295);
+  background-color: rgb(180, 180, 180);
   text-align: center;
 }
 
@@ -58,7 +58,7 @@ p {
 /*----------band font/images-----------*/
 
 .band-name {
-  color: rgb(248, 21, 21);
+  color: #0a0101;
   font-family: "Pangolin", Arial, Helvetica, sans-serif;
   font-size: 20px;
   text-align: left;
