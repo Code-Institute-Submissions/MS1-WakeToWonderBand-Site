@@ -75,6 +75,7 @@ p {
   margin-right: 20px;
   margin-top: 20px;
   box-shadow: 15px 15px 15px black;
+  border-radius: 20px;
 }
 
 /*---------Containter-------*/
@@ -90,6 +91,7 @@ p {
   margin-bottom: 10px;
   box-shadow: 10px 10px 15px black;
   width: 100%;
+  border-radius: 20px;
 }
 
 .container-form {
@@ -98,6 +100,7 @@ p {
   text-align: center;
   text-decoration: none;
   width: 100%;
+  
 }
 
 /*--------------contact form--------------*/
@@ -144,8 +147,8 @@ textarea {
   font-size: 36px;
   text-align: center;
   text-decoration: none;
-  border-radius: 50%;
   width: 100%;
   display: table-caption;
+  
 }
 
