@@ -34,6 +34,11 @@ This website has been laid out in a scrollable format and the user can easily na
 
 # **Technologies Used**
 
+*  Html - Html was used to create the layout of the website
+*  CSS - CSS was used to syle my website
+*  Balsamiq Wireframes - Balsamiq was used to create wireframes to get an idea of layout
+*  Bootstrap - I used bootstrap for responsivness and created an image carousel, I also used the CDN for this project and Bootstrap Grid
+*  W3Schools - I found W3Schools extremelly helpful with this project and I used this responsive form [https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive]
 
 # **Testing**
 
