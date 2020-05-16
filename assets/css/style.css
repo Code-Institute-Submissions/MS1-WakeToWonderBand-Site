@@ -35,16 +35,16 @@ body {
 
 /*------------text------------*/
 
-h2 {
+.custom-header-two {
   text-align: center;
   color: rgb(14, 13, 13);
   font-family: "Pangolin", Arial, Helvetica, sans-serif;
   margin-top: 80px;
   margin-bottom: 10px;
-  font-size: 25px;
+  
 }
 
-h5 {
+.custom-header-five {
   text-align: center;
   font-family: "Pangolin", Arial, Helvetica, sans-serif;
 }
@@ -75,14 +75,11 @@ p {
   margin-left: 10px;
   margin-right: 20px;
   margin-top: 20px;
-  -webkit-box-shadow: 15px 15px 15px black;
-  box-shadow: 15px 15px 15px black;
+ 
   border-radius: 20px;
 }
 
-img {
-  border-style: groove;
-}
+
 
 /*---------Containter-------*/
 .row {
@@ -90,20 +87,19 @@ img {
   text-align: center;
 }
 .container {
-  background-color: #1be0fa0c;
+  
   text-align: center;
   height: 100%;
   margin-top: 0px;
   margin-bottom: 10px;
-  -webkit-box-shadow: 10px 10px 15px black;
-  box-shadow: 10px 10px 15px black;
+
   width: 100%;
   border-radius: 20px;
 }
 
 .container-form {
   color: white;
-  padding: 14px 25px;
+  
   text-align: center;
   text-decoration: none;
   width: 100%;
