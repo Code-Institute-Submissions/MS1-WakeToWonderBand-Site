@@ -12,7 +12,7 @@ body {
 /*----------Navigation----------*/
 
 .align-dropdown {
-    justify-items: right;
+    text-align: right;
 }
 
 .nav-item {
@@ -23,7 +23,7 @@ body {
   height: 25px;
   left: 0px;
   margin: 0;
-  margin-bottom: 7px;
+  margin-bottom: 18px;
   margin-left: 20px;
   -ms-flex-line-pack: auto;
   align-content: auto;
@@ -33,7 +33,7 @@ body {
 .navbar-brand {
   font-size: 30px;
   font-family: "Pangolin", Arial, Helvetica, sans-serif;
-  padding: 2px;
+  padding: 0px;
   height: 30px;
   left: 0px;
   margin: 0;
