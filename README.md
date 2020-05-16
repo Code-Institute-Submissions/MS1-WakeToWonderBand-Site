@@ -58,6 +58,8 @@ I used Balsamiq to create my wireframes - first time I have used Balsamiq and i 
 
 # **Surface**
 
+The surface of this site is easy on the eye with eye catching images and an easy navigational panel. I opted for Pangolin font which is easy to read and very eye catching. All sections are aligned correctly apart from the Band images section. I struggled with this section as everytime i changed the 'Class' from row it would vertically align my pictures, this class i got from Bootstrap, I corrected this as much as i could by using padding
+
 # **Technologies Used**
 
 - Html - Html was used to create the layout of the website
@@ -70,7 +72,8 @@ I used Balsamiq to create my wireframes - first time I have used Balsamiq and i 
 
 # **Testing**
 
-I used several different browsers to test my site, namely Chrome, Firefox and Microsoft Edge, Chrome was absolutely fine, however Firefox and Edge, my Social links at the bottom didnt work out, i Tried putting my code through Validator and found little errors but couldnt fix this issue. The responsiveness works well across these browsers, i also tested this on Google Pixel 3, Samsung Tablet SMTM85 and the page responded well. I also used Dev tools to inspect on the different devices that are available and on an ipad pro the images go vertically but are still aligned nicely.
+I used several different browsers to test my site, namely Chrome, Firefox and Microsoft Edge, Chrome was absolutely fine, however Firefox and Edge, my Social links at the bottom didnt work out, i Tried putting my code through Validator and found little errors but couldnt fix this issue, I also tired using different classes to wrap the icons to try and sort this issue but to no avail. The responsiveness works well across these browsers, i also tested this on Google Pixel 3, Samsung Tablet SMTM85 and the page responded well. I also used Dev tools to inspect on the different devices that are available and on an ipad pro the images go vertically but are still aligned nicely.
+All the links and different sections work nicely and collapse on different devices.
 
 # **Deployment**
 
@@ -78,7 +81,7 @@ I used several different browsers to test my site, namely Chrome, Firefox and Mi
 
 ## Content
 
-- I obtained code from Bootstrap, W3Schools, and i found both these websites to be very helpful
+- I obtained code from Bootstrap, W3Schools, and i found both these websites to be very helpful.  I put a photo Carousel in and i got this code from Bootstrap
 
 ## Media
 
@@ -86,4 +89,5 @@ I used several different browsers to test my site, namely Chrome, Firefox and Mi
 
 ## Acknowledgements
 
--
+- I found the responsive form to submit from W3Schools as shown above in Technologies used section
+- 
