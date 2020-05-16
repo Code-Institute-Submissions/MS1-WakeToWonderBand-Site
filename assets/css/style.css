@@ -11,6 +11,10 @@ body {
 
 /*----------Navigation----------*/
 
+.align-dropdown {
+    justify-items: right;
+}
+
 .nav-item {
   font-size: 25px;
   opacity: 0.8;
@@ -76,7 +80,7 @@ body {
   object-fit: cover;
   width: 100%;
   height: 450px;
-  margin-left: 10px;
+  margin-left: 17px;
   margin-right: 20px;
   margin-top: 20px;
  
