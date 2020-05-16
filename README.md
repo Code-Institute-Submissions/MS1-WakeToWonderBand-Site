@@ -68,6 +68,8 @@ I used Balsamiq to create my wireframes - first time I have used Balsamiq and i 
 
 # **Testing**
 
+I used several different browsers to test my site, namely Chrome, Firefox and Microsoft Edge, Chrome was absolutely fine, however Firefox and Edge, my Social links at the bottom didnt work out, i Tried putting my code through Validator and found little errors but couldnt fix this issue.  The responsiveness works well across these browsers, i also tested this on Google Pixel 3, Samsung Tablet SMTM85 and the page responded well.  I also used Dev tools to inspect on the different devices that are available and on an ipad pro the images go vertically but are still aligned nicely.
+
 
 # **Deployment**
 

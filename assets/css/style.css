@@ -15,9 +15,9 @@ body {
   height: 25px;
   left: 0px;
   margin: 0;
-  background-color: transparent;
   margin-bottom: 7px;
   margin-left: 20px;
+  -ms-flex-line-pack: auto;
   align-content: auto;
 }
 
@@ -28,7 +28,7 @@ body {
   height: 30px;
   left: 0px;
   margin: 0;
-  background-color: transparent;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin-bottom: 5px;
 }
@@ -68,24 +68,26 @@ p {
   margin-top: 20px;
 }
 .band-image {
+  -o-object-fit: cover;
   object-fit: cover;
   width: 100%;
   height: 450px;
   margin-left: 10px;
   margin-right: 20px;
   margin-top: 20px;
+  -webkit-box-shadow: 15px 15px 15px black;
   box-shadow: 15px 15px 15px black;
   border-radius: 20px;
 }
 
 img {
-    border-style: groove;
+  border-style: groove;
 }
 
 /*---------Containter-------*/
 .row {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 .container {
   background-color: #1be0fa0c;
@@ -93,6 +95,7 @@ img {
   height: 100%;
   margin-top: 0px;
   margin-bottom: 10px;
+  -webkit-box-shadow: 10px 10px 15px black;
   box-shadow: 10px 10px 15px black;
   width: 100%;
   border-radius: 20px;
@@ -104,7 +107,6 @@ img {
   text-align: center;
   text-decoration: none;
   width: 100%;
-  
 }
 
 /*--------------contact form--------------*/
@@ -143,16 +145,14 @@ textarea {
 }
 /*--------------footer---------------------*/
 
-
-
 .fa {
-    color: rgb(87, 87, 87);
+  color: rgb(87, 87, 87);
   padding: 20px;
   font-size: 36px;
   text-align: center;
   text-decoration: none;
   width: 100%;
   display: table-caption;
-  
+  -o-object-fit: cover;
+  object-fit: cover;
 }
-
