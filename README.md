@@ -38,7 +38,7 @@ My website has 5 different sections to navigate through on a sticky Nav bar whic
 
 ## Features left to implement
 
-I think if we need to add more features to this site we would probably need to add some merchandise store to gain more interest from users.  I would also like to see a big image gallery in future to entice more potential footfall
+I think if we need to add more features to this site we would probably need to add some merchandise store to gain more interest from users. I would also like to see a big image gallery in future to entice more potential footfall
 
 # **Strategy**
 
@@ -80,7 +80,8 @@ Tested CSS in W3Validator and only these errors were found [CSS](https://validat
 
 # **Deployment**
 
-This site is deployed directly from GitHub, everytime this it is updated it will automatically update the site.
+This site is deployed directly from GitHub, everytime this it is updated it will automatically update the site.  This site is deployed directly from GitHub itself.  
+
 
 # **Credits**
 
@@ -96,4 +97,4 @@ This site is deployed directly from GitHub, everytime this it is updated it will
 
 - I found the responsive form to submit from W3Schools as shown above in Technologies used section
 - Huge thank you to 'Oluwafemi Medale' my mentor for all the help with this project
-- 
+-
