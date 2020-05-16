@@ -38,7 +38,7 @@ My website has 5 different sections to navigate through on a sticky Nav bar whic
 
 ## Features left to implement
 
-I think if we need to add more features to this site we would probably need to add some merchandise store to gain more interest from users. I would also like to see a big image gallery in future to entice more potential footfall
+I think if I need to add more features to this site we would probably need to add some merchandise store to gain more interest from users. I would also like to see a big image gallery in future to entice more potential footfall
 
 # **Strategy**
 
@@ -74,14 +74,13 @@ The surface of this site is easy on the eye with eye catching images and an easy
 
 # **Testing**
 
-I used several different browsers to test my site, namely Chrome, Firefox and Microsoft Edge, Chrome was absolutely fine, however Firefox and Edge, my Social links at the bottom didnt work out, i Tried putting my code through Validator and found little errors but couldnt fix this issue, I also tired using different classes to wrap the icons to try and sort this issue but to no avail. The responsiveness works well across these browsers, i also tested this on Google Pixel 3, Samsung Tablet SMTM85 and the page responded well. I also used Dev tools to inspect on the different devices that are available and on an ipad pro the images go vertically but are still aligned nicely.
+I used several different browsers to test my site, namely Chrome, Firefox and Microsoft Edge, Chrome was absolutely fine, however Firefox and Edge, my Social links at the bottom didnt work out, I Tried putting my code through Validator and found little errors but couldnt fix this issue, I also tired using different classes to wrap the icons to try and sort this issue but to no avail. The responsiveness works well across these browsers, i also tested this on Google Pixel 3, Samsung Tablet SMTM85 and the page responded well. I also used Dev tools to inspect on the different devices that are available and on an ipad pro the images go vertically but are still aligned nicely.
 All the links and different sections work nicely and collapse on different devices.
 Tested CSS in W3Validator and only these errors were found [CSS](https://validator.w3.org/nu/#textarea), I also tested my HTML in W3Validator [HTML](https://validator.w3.org/nu/#textarea) and the only errors were my Video section which i struggled to changed as i copied this directly from [you tube](https://www.youtube.com/watch?v=3Zz7LipDBFg)
 
 # **Deployment**
 
-This site is deployed directly from GitHub, everytime this it is updated it will automatically update the site.  This site is deployed directly from GitHub itself.  
-
+This site is deployed directly from GitHub, everytime this it is updated it will automatically update the site. This site is deployed directly from GitHub itself.
 
 # **Credits**
 
@@ -97,4 +96,4 @@ This site is deployed directly from GitHub, everytime this it is updated it will
 
 - I found the responsive form to submit from W3Schools as shown above in Technologies used section
 - Huge thank you to 'Oluwafemi Medale' my mentor for all the help with this project
--
+- I would just like to say a big thank you to the Band itself, Adam Boyd, Grant Coetzee, Werner Ainslie & Graeme Swale - this project is for educational purposes only.  This is a factual Band, they have now parted but I have full permission and references are available on request.
