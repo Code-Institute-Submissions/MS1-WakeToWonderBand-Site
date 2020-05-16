@@ -54,7 +54,7 @@ This website has been laid out in a way as to get a feel for who the band are by
 
 I used Balsamiq to create my wireframes - first time I have used Balsamiq and i found it to be a very good tool
 
-[https://github.com/kevin1610433/MS1-WakeToWonderBand-Site/blob/master/assets/images/wireframe/W2WWire.jpg]
+[Wireframes](https://github.com/kevin1610433/MS1-WakeToWonderBand-Site/blob/master/assets/images/wireframe/W2WWire.jpg)
 
 # **Surface**
 
@@ -63,10 +63,10 @@ I used Balsamiq to create my wireframes - first time I have used Balsamiq and i 
 - Html - Html was used to create the layout of the website
 - CSS - CSS was used to syle my website
 - Balsamiq Wireframes - Balsamiq was used to create wireframes to get an idea of layout
-- https://getbootstrap.com/ - I used bootstrap for responsivness and created an image carousel, I also used the CDN for this project and Bootstrap Grid
-- W3Schools - I found W3Schools extremelly helpful with this project and I used this responsive form https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive i altered it a bit to suit my website
-- https://fontawesome.com
-- https://fonts.google.com/ - I used Google fonts for my fonts and i used "Pangolin" throughout the entire page as i think it works well with the site
+- [Bootstrap](https://getbootstrap.com/) - I used bootstrap for responsivness and created an image carousel, I also used the CDN for this project and Bootstrap Grid
+- W3Schools - I found W3Schools extremelly helpful with this project and I used this responsive form [W3Schols](https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive) i altered it a bit to suit my website
+- [Font Awesome](https://fontawesome.com)
+- [Google Fonts](https://fonts.google.com/) - I used Google fonts for my fonts and i used "Pangolin" throughout the entire page as i think it works well with the site
 
 # **Testing**
 
