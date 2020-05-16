@@ -74,6 +74,7 @@ The surface of this site is easy on the eye with eye catching images and an easy
 
 I used several different browsers to test my site, namely Chrome, Firefox and Microsoft Edge, Chrome was absolutely fine, however Firefox and Edge, my Social links at the bottom didnt work out, i Tried putting my code through Validator and found little errors but couldnt fix this issue, I also tired using different classes to wrap the icons to try and sort this issue but to no avail. The responsiveness works well across these browsers, i also tested this on Google Pixel 3, Samsung Tablet SMTM85 and the page responded well. I also used Dev tools to inspect on the different devices that are available and on an ipad pro the images go vertically but are still aligned nicely.
 All the links and different sections work nicely and collapse on different devices.
+Tested CSS in W3Validator and only these errors were found [CSS](https://validator.w3.org/nu/#textarea), I also tested my HTML in W3Validator [HTML](https://validator.w3.org/nu/#textarea) and the only errors were my Video section which i struggled to changed as i copied this directly from [you tube](https://www.youtube.com/watch?v=3Zz7LipDBFg)
 
 # **Deployment**
 
@@ -81,7 +82,7 @@ All the links and different sections work nicely and collapse on different devic
 
 ## Content
 
-- I obtained code from Bootstrap, W3Schools, and i found both these websites to be very helpful.  I put a photo Carousel in and i got this code from Bootstrap
+- I obtained code from Bootstrap, W3Schools, and i found both these websites to be very helpful. I put a photo Carousel in and i got this code from Bootstrap
 
 ## Media
 
@@ -90,4 +91,4 @@ All the links and different sections work nicely and collapse on different devic
 ## Acknowledgements
 
 - I found the responsive form to submit from W3Schools as shown above in Technologies used section
-- 
+-
