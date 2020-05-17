@@ -70,7 +70,7 @@ The surface of this site is easy on the eye with eye catching images and an easy
 - Balsamiq Wireframes - Balsamiq was used to create wireframes to get an idea of layout
 - [Bootstrap](https://getbootstrap.com/) - I used bootstrap for responsivness and created an image carousel, I also used the CDN for this project and Bootstrap Grid
 - W3Schools - I found W3Schools extremelly helpful with this project and I used this responsive form [W3Schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive) i altered it a bit to suit my website
-- [Font Awesome](https://fontawesome.com) I used font awesome for the wide perspective of icons
+- [Font Awesome](https://fontawesome.com) I used font awesome for the icons
 - [Google Fonts](https://fonts.google.com/) - I used Google fonts for my fonts and i used "Pangolin" throughout the entire page as i think it works well with the site
 
 # **Testing**
