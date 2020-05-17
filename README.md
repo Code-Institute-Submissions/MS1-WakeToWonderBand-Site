@@ -81,7 +81,7 @@ Tested CSS in W3Validator and only these errors were found [CSS](https://validat
 
 # **Deployment**
 
-This site is deployed directly from GitHub, everytime this it is updated it will automatically update the site. This site is deployed directly from GitHub itself.
+This site is deployed directly from GitHub, everytime this it is updated it will automatically update the site. This site is deployed directly from GitHub itself.  This directory can be cloned to open on another IDE
 
 # **Credits**
 
