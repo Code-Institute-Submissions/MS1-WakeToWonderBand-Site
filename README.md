@@ -11,6 +11,8 @@ In Short:
 
 # **Demo**
 
+A live Demo can be found [here](https://kevin1610433.github.io/MS1-WakeToWonderBand-Site/)
+
 ![Design](https://github.com/kevin1610433/MS1-WakeToWonderBand-Site/blob/master/assets/images/demo.png)
 
 # **UX**
@@ -35,6 +37,7 @@ My website has 5 different sections to navigate through on a sticky Nav bar whic
 - Videos - This section has a music video that the Band released and is playable directly from the site, there is a link below the video to take the user to a you tube playlist of the band, i set this so it would open in a seperate page so the user can still continue to browse this site
 - Contact - This section has a form that if the user is interested can enter their details to enquire about booking the band, the submit button takes the user to an image
 - Footer - Very simple footer with social links of the band, Facebook, Twitter, Instagram and you tube
+
 
 ## Features left to implement
 
@@ -82,6 +85,7 @@ Tested CSS in W3Validator and only found minimal errors, I also tested my HTML i
 # **Deployment**
 
 This site is deployed directly from GitHub, everytime this is updated it will automatically update the site. This site is deployed directly from GitHub itself.  This directory can be cloned to open on another IDE.  
+
 [Click here for Website](https://kevin1610433.github.io/MS1-WakeToWonderBand-Site/)
 
 [Click here for Repo](https://github.com/kevin1610433/MS1-WakeToWonderBand-Site#demo)
@@ -90,7 +94,7 @@ This site is deployed directly from GitHub, everytime this is updated it will au
 
 ## Content
 
-- I obtained code from Bootstrap, W3Schools, and i found both these websites to be very helpful. I put a photo Carousel in and i got this code from Bootstrap
+- I obtained code from Bootstrap, W3Schools, and I found both these websites to be very helpful. I put a photo Carousel in and i got this code from [here](https://getbootstrap.com/docs/4.5/components/carousel/), my contact form i got from [here](https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive), I also used bootstrap to align my band images which i obtained form [here] https://getbootstrap.com/docs/4.5/layout/grid/#auto-layout-columns
 
 ## Media
 
