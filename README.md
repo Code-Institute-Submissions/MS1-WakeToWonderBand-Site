@@ -11,7 +11,7 @@ In Short:
 
 # **Demo**
 
-[Design]([https://github.com/kevin1610433/MS1-WakeToWonderBand-Site/blob/master/assets/images/demo.png) - note- this link worked but just before submission the link seemed to not work
+[Design]([https://github.com/kevin1610433/MS1-WakeToWonderBand-Site/blob/master/assets/images/demo.png)
 
 # **UX**
 
