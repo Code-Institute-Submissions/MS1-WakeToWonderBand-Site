@@ -94,7 +94,7 @@ This site is deployed directly from GitHub, everytime this is updated it will au
 
 ## Content
 
-- I obtained code from Bootstrap, W3Schools, and I found both these websites to be very helpful. I put a photo Carousel in and i got this code from [here](https://getbootstrap.com/docs/4.5/components/carousel/), my contact form i got from [here](https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive), I also used bootstrap to align my band images which i obtained form [here] (https://getbootstrap.com/docs/4.5/layout/grid/#auto-layout-columns)
+- I obtained code from Bootstrap, W3Schools, and I found both these websites to be very helpful. I put a photo Carousel in and i got this code from [here](https://getbootstrap.com/docs/4.5/components/carousel/), my contact form i got from [here](https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive), I also used bootstrap to align my band images which i obtained form [here](https://getbootstrap.com/docs/4.5/layout/grid/#auto-layout-columns)
 
 ## Media
 
