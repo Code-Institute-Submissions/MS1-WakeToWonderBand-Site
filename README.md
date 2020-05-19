@@ -56,7 +56,7 @@ This website has been laid out in a way as to get a feel for who the band are by
 
 I used Balsamiq to create my wireframes - first time I have used Balsamiq and I found it to be a very good tool
 
-[Wireframes](https://github.com/kevin1610433/MS1-WakeToWonderBand-Site/blob/master/assets/images/wireframe/W2WWire.jpg)
+![Wireframes](https://github.com/kevin1610433/MS1-WakeToWonderBand-Site/blob/master/assets/images/wireframe/W2WWire.jpg)
 
 # **Surface**
 
@@ -71,12 +71,13 @@ The surface of this site is easy on the eye with eye catching images and an easy
 - W3Schools - I found W3Schools extremelly helpful with this project and I used this responsive form [W3Schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive) i altered it a bit to suit my website
 - [Font Awesome](https://fontawesome.com) I used font awesome for the icons
 - [Google Fonts](https://fonts.google.com/) - I used Google fonts for my fonts and i used "Pangolin" throughout the entire page as i think it works well with the site
+- [W3Validator](https://validator.w3.org/) - I used this to test my HTML and CSS
 
 # **Testing**
 
 I used several different browsers to test my site, namely Chrome, Firefox and Microsoft Edge, Chrome was absolutely fine, however Firefox and Edge, my Social links at the bottom didnt work out, I Tried putting my code through Validator and found little errors but couldnt fix this issue, I also tired using different classes to wrap the icons to try and sort this issue but to no avail. The responsiveness works well across these browsers, I also tested this on Google Pixel 3, Samsung Tablet SMTM85 and the page responded well. I also used Dev tools to inspect on the different devices that are available and on an ipad pro the images go vertically but are still aligned nicely.
 All the links and different sections work nicely and collapse on different devices.
-Tested CSS in W3Validator and only these errors were found [CSS](https://validator.w3.org/nu/#textarea), I also tested my HTML in W3Validator [HTML](https://validator.w3.org/nu/#textarea) and the only errors were my Video section which i struggled to changed as i copied this directly from [you tube](https://www.youtube.com/watch?v=3Zz7LipDBFg)
+Tested CSS in W3Validator and only found minimal errors, I also tested my HTML in W3Validator  and the only errors were my Video section which i struggled to changed as i copied this directly from [you tube](https://www.youtube.com/watch?v=3Zz7LipDBFg)
 
 # **Deployment**
 
@@ -101,3 +102,4 @@ This site is deployed directly from GitHub, everytime this is updated it will au
 - I found the responsive form to submit from W3Schools as shown above in Technologies used section
 - Huge thank you to 'Oluwafemi Medale' my mentor for all the help with this project
 - I would just like to say a big thank you to the Band itself, Adam Boyd, Grant Coetzee, Werner Ainslie & Graeme Swale - this project is for educational purposes only.  This is a factual Band, they have now parted but I have full permission and references are available on request.
+- I would also like to thank the Slack community and everyone at Code Institute, the support has been great
